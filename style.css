@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ravi+Prakash");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+* {
+  box-sizing: border-box; }
+  * body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif; }
+  * .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; }
+  * header {
+    background-color: #313332; }
+    * header nav img {
+      padding: 10px 0; }
+    * header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      float: right; }
+      * header nav ul li {
+        display: inline-block; }
+        * header nav ul li a {
+          line-height: 50px;
+          padding: 0 20px;
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase; }
+          * header nav ul li a:hover {
+            color: #444444; }
+  * .hero {
+    background: url("https://images.pexels.com/photos/255347/pexels-photo-255347.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); }
+  * .gallery, * .pic, * .hero {
+    width: 100%;
+    height: 100vh;
+    padding-top: 42vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; }
+  * .slogan {
+    background: rgba(44, 44, 44, 0.5);
+    float: right;
+    max-width: 800px;
+    color: #fff;
+    /* GRID */ }
+  * .row:after, * .row:before {
+    content: "";
+    clear: both;
+    display: table; }
+  * [class*="col-"] {
+    float: left;
+    min-height: 1px;
+    padding: 12px;
+    width: 100%; }
+  * .col-mod-2 {
+    width: 40%;
+    padding: 0; }
+  * .col-mod-1 {
+    width: 20%;
+    padding: 0; }
+  * .col-1 {
+    width: 8.33%; }
+  * .col-2 {
+    width: 16.66%; }
+  * .col-3 {
+    width: 25%; }
+  * .col-4 {
+    width: 33.33%;
+    position: relative; }
+  * .col-5 {
+    width: 41.66%; }
+  * .col-6 {
+    width: 50%; }
+  * .col-7 {
+    width: 58.33%; }
+  * .col-8 {
+    width: 66.66%; }
+  * .col-9 {
+    width: 75%; }
+  * .col-10 {
+    width: 83.33%; }
+  * .col-11 {
+    width: 91.66%; }
+  * .col-12 {
+    width: 100%; }
+  * .col-offset-0 {
+    margin-left: 0; }
+  * .col-offset-1 {
+    margin-left: 8.33%; }
+  * .col-offset-2 {
+    margin-left: 16.66%; }
+  * .col-offset-3 {
+    margin-left: 25%; }
+  * .col-offset-4 {
+    margin-left: 33.33%; }
+  * .col-offset-5 {
+    margin-left: 41.66%; }
+  * .col-offset-6 {
+    margin-left: 50%; }
+  * .col-offset-7 {
+    margin-left: 58.33%; }
+  * .col-offset-8 {
+    margin-left: 66.66%; }
+  * .col-offset-9 {
+    margin-left: 75%; }
+  * .col-offset-10 {
+    margin-left: 83.33%; }
+  * .col-offset-11 {
+    margin-left: 91.66%;
+    /*GRID */ }
+  * .row {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px; }
+  * .container .row .col-4 .fa {
+    background-color: #313332;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    border-radius: 15%;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 100px; }
+    * .container .row .col-4 .fa:hover {
+      background-color: #00C7E8;
+      transition: 0.3s;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
+  * h2, * h4 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center; }
+  * p {
+    font-size: 15px;
+    color: #C9C9C9; }
+  * .works .container {
+    margin: 50px auto;
+    text-align: center; }
+  * .gallery {
+    padding: 0;
+    margin: 0; }
+    * .gallery .row {
+      padding: 0;
+      margin: 0; }
+      * .gallery .row .col-mod-1 {
+        position: relative; }
+        * .gallery .row .col-mod-1:hover .layer {
+          visibility: visible; }
+        * .gallery .row .col-mod-1 img {
+          height: 45vh;
+          width: 100%; }
+        * .gallery .row .col-mod-1 .layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(255, 255, 255, 0.5);
+          visibility: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+      * .gallery .row .col-mod-2 {
+        position: relative; }
+        * .gallery .row .col-mod-2:hover .layer {
+          visibility: visible; }
+        * .gallery .row .col-mod-2 img {
+          height: 45vh;
+          width: 100%; }
+        * .gallery .row .col-mod-2 .layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(255, 255, 255, 0.5);
+          visibility: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+  * .person, * .container .row .col-3 .person-1, * .container .row .col-3 .person-2, * .container .row .col-3 .person-3, * .container .row .col-3 .person-4 {
+    background-color: #646464;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden; }
+  * .person-hover, * .container .row .col-3 .person-1:hover, * .container .row .col-3 .person-2:hover, * .container .row .col-3 .person-3:hover, * .container .row .col-3 .person-4:hover {
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s; }
+  * .container .row .col-3 .person-1:hover {
+    background-image: url("https://images.pexels.com/photos/51969/model-female-girl-beautiful-51969.jpeg?w=300&h=300"); }
+  * .container .row .col-3 .person-2:hover {
+    background-image: url("https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"); }
+  * .container .row .col-3 .person-3:hover {
+    background-image: url("https://images.pexels.com/photos/6110/man-holiday-people-face.jpg?w=300&h=300"); }
+  * .container .row .col-3 .person-4:hover {
+    background-image: url("https://images.pexels.com/photos/4618/man-person-hat-fur.jpg?w=300&h=300"); }
+  * .pic {
+    background-color: #646464;
+    height: 50vh;
+    margin: 0;
+    padding: 0; }
+    * .pic .container .row {
+      padding: 0; }
+      * .pic .container .row p {
+        height: auto; }
+      * .pic .container .row .col-4 {
+        margin-top: 6vh;
+        height: 50vh; }
+        * .pic .container .row .col-4 img {
+          padding: 0;
+          margin: 0;
+          height: 100%;
+          width: 100%; }
+      * .pic .container .row h2, * .pic .container .row h4 {
+        color: white;
+        font-family: "Poiret One", cursive;
+        font-size: 40px; }
+      * .pic .container .row .col-8 .col-4 {
+        margin: 0;
+        padding: 0; }
+  * .numbers .container .row h2, * .numbers .container .row h4 {
+    font-family: "Poiret One", cursive;
+    font-size: 40px;
+    margin: 0;
+    padding: 0; }
+  * .numbers .container .row p {
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-transform: uppercase; }
+  * .footer {
+    background-color: #646464;
+    margin: 0;
+    padding: 0; }
+    * .footer .row .col-4 .row {
+      padding: 0; }
+    * .footer .row .col-4 .col-4 {
+      padding: 0; }
+      * .footer .row .col-4 .col-4 h4 {
+        height: 40px;
+        margin: 5px 0; }
+    * .footer .row .col-4 .col-8 {
+      padding: 0; }
+      * .footer .row .col-4 .col-8 p {
+        height: 40px;
+        margin: 5px 0; }
+    * .footer .row .col-4 .social .row {
+      margin: auto;
+      display: inline-block; }
+      * .footer .row .col-4 .social .row .col-2 {
+        width: 40px;
+        height: 40px;
+        background-color: #03C5E9;
+        text-align: center;
+        margin: 3px; }
+        * .footer .row .col-4 .social .row .col-2 .fa {
+          color: #FFFFFF;
+          display: inline;
+          font-size: 20px;
+          cursor: pointer; }
+  * .copyrights {
+    text-align: center;
+    background-color: #545454;
+    height: 10vh;
+    margin: 0;
+    padding: 0; }
+    * .copyrights p {
+      margin: 0;
+      font-size: 20px;
+      padding: 10px; }
+  * .line {
+    width: 80px;
+    border: 1.6px solid black;
+    position: absolute;
+    right: 0px;
+    top: 45px; }
+
+@media (max-width: 767px) {
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; }
+
+  header nav {
+    text-align: center; }
+    header nav ul {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      float: none; }
+      header nav ul li {
+        display: block; }
+
+  .pic, .hero, .gallery {
+    width: 100%;
+    height: 100%;
+    overflow: initial; }
+
+  .person-1 {
+    background: url("https://images.pexels.com/photos/51969/model-female-girl-beautiful-51969.jpeg?w=300&h=300"); }
+
+  .person-2 {
+    background: url("https://images.pexels.com/photos/119705/pexels-photo-119705.jpeg?w=300&h=300"); }
+
+  .person-3 {
+    background: url("https://images.pexels.com/photos/6110/man-holiday-people-face.jpg?w=300&h=300"); }
+
+  .person-4 {
+    background: url("https://images.pexels.com/photos/4618/man-person-hat-fur.jpg?w=300&h=300"); }
+
+  .gallery {
+    padding: 0;
+    margin: 0; }
+    .gallery .row {
+      padding: 0;
+      margin: 0; }
+      .gallery .row .col-mod-1 {
+        position: relative; }
+        .gallery .row .col-mod-1 img {
+          height: 45vh;
+          width: 100%; }
+        .gallery .row .col-mod-1 .layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(255, 255, 255, 0);
+          visibility: visible;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+      .gallery .row .col-mod-2 {
+        position: relative; }
+        .gallery .row .col-mod-2:hover .layer {
+          visibility: visible; }
+        .gallery .row .col-mod-2 img {
+          height: 45vh;
+          width: 100%; }
+        .gallery .row .col-mod-2 .layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(255, 255, 255, 0);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          visibility: visible; }
+
+  .copyrights p {
+    font-size: 15px;
+    padding-top: 10px; }
+
+  .line {
+    width: 100%;
+    position: initial; } }
+@media (min-width: 768px) and (max-width: 1025px) {
+  .col-m-1 {
+    width: 8.33%; }
+
+  .col-m-2 {
+    width: 16.66%; }
+
+  .col-m-3 {
+    width: 25%; }
+
+  .col-m-4 {
+    width: 33.33%; }
+
+  .col-m-5 {
+    width: 41.66%; }
+
+  .col-m-6 {
+    width: 50%; }
+
+  .col-m-7 {
+    width: 58.33%; }
+
+  .col-m-8 {
+    width: 66.66%; }
+
+  .col-m-9 {
+    width: 75%; }
+
+  .col-m-10 {
+    width: 83.33%; }
+
+  .col-m-11 {
+    width: 91.66%; }
+
+  .col-m-12 {
+    width: 100%; } }
+
+
+.fa {
+  cursor: pointer;
+}
